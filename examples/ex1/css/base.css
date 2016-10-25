@@ -1,0 +1,72 @@
+*{margin:0px;padding:0px;}
+
+
+.con{width: 100%;height: 100%;position: absolute;
+    top:0px;left:0px;background: url(../images/q1.jpg) no-repeat center;background-size: cover;
+    -webkit-filter: blur(10px);
+}
+
+.bg{width: 100%;height: 100%;position: absolute;top:0px;left:0px;}
+.main{position: absolute;top:0px;left:0px;width: 100%;height: 100%;overflow: hidden;
+    -webkit-perspective:2800;
+    -webkit-perspecitive-origin:left center;
+}
+
+.mInner{position: absolute;top:60px;left:50%;bottom:60px;right:60px;
+    -webkit-transform-style:preserve-3d;
+}
+.pages{width: 100%;height: 100%;position:absolute;top:0px;left:0px;
+    -webkit-transform-origin:left center;-webkit-transition:all 1.6s linear;
+}
+
+.pages.p1{-webkit-transform:rotateY(0deg);z-index: 7;background: url(../images/q2.jpg) no-repeat center;background-size: 100% 100%;}
+.pages.p2{background: url(../images/q3.jpg) no-repeat center;background-size: 100% 100%;z-index: 6;}
+.pages.p3{background: url(../images/q4.jpg) no-repeat center;background-size: 100% 100%;z-index: 5;}
+.pages.p4{background: url(../images/q5.jpg) no-repeat center;background-size: 100% 100%;z-index: 4;}
+.pages.p5{background:url(../images/q7.jpg) no-repeat center;background-size: 100% 100%;z-index: 3;}
+.pages.p6{background:url(../images/q6.jpg) no-repeat center;background-size: 100% 100%;z-index: 2;}
+
+
+
+
+
+
+
+
+.leftarea{width: 50%;height: 100px;
+    position: absolute;bottom:0px;left:0px;z-index: 50;
+}
+
+.rightarea{width: 50%;height: 100px;
+    position: absolute;bottom:0px;right:0px;z-index: 50;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
